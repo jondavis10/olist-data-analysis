@@ -59,7 +59,7 @@ Next steps 6-10-26:
 
 meeting notes/next steps 6-30-26
 - create tables using the instructions in below sections
-- 
+- if done with creating tables create new notebook file and mess around with joins and stuff
 
                 ++++++++++++++++ Instructions for creaating tables usings marimo +++++++++++++++++++++++++++++++
 open marimo in VS studio command prompt: marimo edit 'file name' 
