@@ -1,12 +1,13 @@
 # **olist-data-analysis**
 ## Purpose of Project
-                ++++++++++++++++++++++++++ GIT COMMANDS +++++++++++++++++++++++++++++++++
-    - closing marimo
-        ```
-        ctl+C
-        ```
 
-    - Cloning files to local directory
+                ++++++++++++++++++++++++++ GIT COMMANDS +++++++++++++++++++++++++++++++++
+- closing marimo
+    ```
+    ctl+C
+    ```
+
+- Cloning files to local directory
     - Go to github.com  -> find your repository -> click on "Code" dropdown and copy the HTTPS URL
     - Go to your terminal and navigate to the directory you want the files to be
     - run `git clone <url> .`
@@ -44,7 +45,7 @@
     - Terminal commands:
     ```
     git pull 
-    ``
+    ```
 
                 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
