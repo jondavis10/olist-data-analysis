@@ -49,18 +49,6 @@
 
                 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-next steps 6-4-26: 
-- look up how to connect dbeaver (interact with data) to `Olist_dataset.duckdb`
-- Create Tables from CSV files in database file `.duckdb`
-
-Next steps 6-10-26:
-- create tables in marimo using the 'marimo edit 00_Olist_setup.py" command to access the marimo notebook. all CSV files in the "Olist-data-analysis" need a table, reference the SQL query to see how to create these tables.
-- Mapping exercise: create schema tables linking all the common fileds (drawio can be used for visual or use excel)
-
-meeting notes/next steps 6-30-26
-- create tables using the instructions in below sections
-- if done with creating tables create new notebook file and mess around with joins and stuff
-
                 ++++++++++++++++ Instructions for creaating tables usings marimo +++++++++++++++++++++++++++++++
 open marimo in VS studio command prompt: marimo edit 'file name' 
     Example: 
@@ -77,6 +65,22 @@ open marimo in VS studio command prompt: marimo edit 'file name'
     ```
 -Rinse and repeat for all .csv files located in the C:\Users\15202\Documents\DataEngineeringProjects\VSCodeFiles\PersonalCodingProjects\olist-data-analysis file which can be found in the left panel of the VS studio explorer pane.
                 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+next steps 6-4-26: 
+- look up how to connect dbeaver (interact with data) to `Olist_dataset.duckdb`
+- Create Tables from CSV files in database file `.duckdb`
+
+Next steps 6-10-26:
+- create tables in marimo using the 'marimo edit 00_Olist_setup.py" command to access the marimo notebook. all CSV files in the "Olist-data-analysis" need a table, reference the SQL query to see how to create these tables.
+- Mapping exercise: create schema tables linking all the common fileds (drawio can be used for visual or use excel)
+
+meeting notes/next steps 6-30-26
+- create tables using the instructions in the above section called 'instructions for creating tables using Marimo'
+- if done with creating tables create new notebook file and mess around with joins and stuff
+
+work notes 7-3-2026
+- I finished creating tables from all the CSV files. Can I now combine all the tables into a single files that I can upload to Git? ask Matt for next steps.
+
 
 Quick tips:
     

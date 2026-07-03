@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.23.9"
+__generated_with = "0.23.13"
 app = marimo.App(width="medium")
 
 
@@ -42,12 +42,11 @@ def _(conn, mo):
 
 
 @app.cell
-def _(conn, mo, olist_customers):
+def _(mo):
     _df = mo.sql(
         f"""
-        SELECT * FROM olist_customers limit 10
-        """,
-        engine=conn
+        create table if not exists Olist_geolocation as select * from 'olist_geolocation_dataset.csv';
+        """
     )
     return
 
@@ -56,7 +55,67 @@ def _(conn, mo, olist_customers):
 def _(mo):
     _df = mo.sql(
         f"""
-        SELECT * FROM
+        create table if not exists Olist_order_items as select * from 'olist_order_items_dataset.csv';
+        """
+    )
+    return
+
+
+@app.cell
+def _(mo):
+    _df = mo.sql(
+        f"""
+        create table if not exists Olist_order_payments as select * from 'olist_order_payments_dataset.csv';
+        """
+    )
+    return
+
+
+@app.cell
+def _(mo):
+    _df = mo.sql(
+        f"""
+        create table if not exists Olist_order_reviews as select * from 'olist_order_reviews_dataset.csv';
+        """
+    )
+    return
+
+
+@app.cell
+def _(mo):
+    _df = mo.sql(
+        f"""
+        create table if not exists Olist_orders_dataset as select * from 'olist_orders_dataset.csv';
+        """
+    )
+    return
+
+
+@app.cell
+def _(mo):
+    _df = mo.sql(
+        f"""
+        create table if not exists Olist_products as select * from 'olist_products_dataset.csv';
+        """
+    )
+    return
+
+
+@app.cell
+def _(mo):
+    _df = mo.sql(
+        f"""
+        create table if not exists Olist_sellers as select * from 'olist_sellers_dataset.csv';
+        """
+    )
+    return
+
+
+@app.cell
+def _(mo, olist_sellers):
+    _df = mo.sql(
+        f"""
+        SELECT * FROM Olist_sellers limit 20
         """
     )
     return
