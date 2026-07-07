@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.23.13"
+__generated_with = "0.23.9"
 app = marimo.App(width="medium")
 
 
@@ -42,81 +42,100 @@ def _(conn, mo):
 
 
 @app.cell
-def _(mo):
+def _(conn, mo):
     _df = mo.sql(
         f"""
         create table if not exists Olist_geolocation as select * from 'olist_geolocation_dataset.csv';
-        """
+        """,
+        engine=conn
     )
     return
 
 
 @app.cell
-def _(mo):
+def _(conn, mo):
     _df = mo.sql(
         f"""
         create table if not exists Olist_order_items as select * from 'olist_order_items_dataset.csv';
-        """
+        """,
+        engine=conn
     )
     return
 
 
 @app.cell
-def _(mo):
+def _(conn, mo):
     _df = mo.sql(
         f"""
         create table if not exists Olist_order_payments as select * from 'olist_order_payments_dataset.csv';
-        """
+        """,
+        engine=conn
     )
     return
 
 
 @app.cell
-def _(mo):
+def _(conn, mo):
     _df = mo.sql(
         f"""
         create table if not exists Olist_order_reviews as select * from 'olist_order_reviews_dataset.csv';
-        """
+        """,
+        engine=conn
     )
     return
 
 
 @app.cell
-def _(mo):
+def _(conn, mo):
     _df = mo.sql(
         f"""
         create table if not exists Olist_orders_dataset as select * from 'olist_orders_dataset.csv';
-        """
+        """,
+        engine=conn
     )
     return
 
 
 @app.cell
-def _(mo):
+def _(conn, mo):
     _df = mo.sql(
         f"""
         create table if not exists Olist_products as select * from 'olist_products_dataset.csv';
-        """
+        """,
+        engine=conn
     )
     return
 
 
 @app.cell
-def _(mo):
+def _(conn, mo):
     _df = mo.sql(
         f"""
         create table if not exists Olist_sellers as select * from 'olist_sellers_dataset.csv';
-        """
+        """,
+        engine=conn
     )
     return
 
 
 @app.cell
-def _(mo, olist_sellers):
+def _(conn, mo, olist_sellers):
     _df = mo.sql(
         f"""
         SELECT * FROM Olist_sellers limit 20
-        """
+        """,
+        engine=conn
+    )
+    return
+
+
+@app.cell
+def _(conn, mo):
+    _df = mo.sql(
+        f"""
+        SELECT table_catalog, table_name FROM information_schema.tables
+        """,
+        engine=conn
     )
     return
 

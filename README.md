@@ -81,6 +81,9 @@ meeting notes/next steps 6-30-26
 work notes 7-3-2026
 - I finished creating tables from all the CSV files. Can I now combine all the tables into a single files that I can upload to Git? ask Matt for next steps.
 
+Work notes 7-7-2026
+- Explore data and create ERD (schema) table for data. 
+
 
 Quick tips:
     

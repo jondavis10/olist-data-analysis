@@ -1,7 +1,7 @@
 {
   "version": "1",
   "metadata": {
-    "marimo_version": "0.23.13",
+    "marimo_version": "0.23.9",
     "script_metadata_hash": null
   },
   "cells": [
@@ -21,24 +21,58 @@
     {
       "id": "MJUe",
       "code_hash": "13d4d7f1c3e1f7deb62332f801fbe484",
-      "outputs": [],
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "vblA",
       "code_hash": "6ffd13eedba1a63ac0a20ab64b8f7e8c",
-      "outputs": [],
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='72169a55-ae7a-71e2-4a1a-a4ba2fd1243e'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_schema&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_customers&#92;&quot;,&#92;&quot;table_type&#92;&quot;:&#92;&quot;BASE TABLE&#92;&quot;,&#92;&quot;self_referencing_column_name&#92;&quot;:null,&#92;&quot;reference_generation&#92;&quot;:null,&#92;&quot;user_defined_type_catalog&#92;&quot;:null,&#92;&quot;user_defined_type_schema&#92;&quot;:null,&#92;&quot;user_defined_type_name&#92;&quot;:null,&#92;&quot;is_insertable_into&#92;&quot;:&#92;&quot;YES&#92;&quot;,&#92;&quot;is_typed&#92;&quot;:&#92;&quot;NO&#92;&quot;,&#92;&quot;commit_action&#92;&quot;:null,&#92;&quot;TABLE_COMMENT&#92;&quot;:null},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_schema&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_geolocation&#92;&quot;,&#92;&quot;table_type&#92;&quot;:&#92;&quot;BASE TABLE&#92;&quot;,&#92;&quot;self_referencing_column_name&#92;&quot;:null,&#92;&quot;reference_generation&#92;&quot;:null,&#92;&quot;user_defined_type_catalog&#92;&quot;:null,&#92;&quot;user_defined_type_schema&#92;&quot;:null,&#92;&quot;user_defined_type_name&#92;&quot;:null,&#92;&quot;is_insertable_into&#92;&quot;:&#92;&quot;YES&#92;&quot;,&#92;&quot;is_typed&#92;&quot;:&#92;&quot;NO&#92;&quot;,&#92;&quot;commit_action&#92;&quot;:null,&#92;&quot;TABLE_COMMENT&#92;&quot;:null},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_schema&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_orders_dataset&#92;&quot;,&#92;&quot;table_type&#92;&quot;:&#92;&quot;BASE TABLE&#92;&quot;,&#92;&quot;self_referencing_column_name&#92;&quot;:null,&#92;&quot;reference_generation&#92;&quot;:null,&#92;&quot;user_defined_type_catalog&#92;&quot;:null,&#92;&quot;user_defined_type_schema&#92;&quot;:null,&#92;&quot;user_defined_type_name&#92;&quot;:null,&#92;&quot;is_insertable_into&#92;&quot;:&#92;&quot;YES&#92;&quot;,&#92;&quot;is_typed&#92;&quot;:&#92;&quot;NO&#92;&quot;,&#92;&quot;commit_action&#92;&quot;:null,&#92;&quot;TABLE_COMMENT&#92;&quot;:null},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_schema&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_order_items&#92;&quot;,&#92;&quot;table_type&#92;&quot;:&#92;&quot;BASE TABLE&#92;&quot;,&#92;&quot;self_referencing_column_name&#92;&quot;:null,&#92;&quot;reference_generation&#92;&quot;:null,&#92;&quot;user_defined_type_catalog&#92;&quot;:null,&#92;&quot;user_defined_type_schema&#92;&quot;:null,&#92;&quot;user_defined_type_name&#92;&quot;:null,&#92;&quot;is_insertable_into&#92;&quot;:&#92;&quot;YES&#92;&quot;,&#92;&quot;is_typed&#92;&quot;:&#92;&quot;NO&#92;&quot;,&#92;&quot;commit_action&#92;&quot;:null,&#92;&quot;TABLE_COMMENT&#92;&quot;:null},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_schema&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_order_payments&#92;&quot;,&#92;&quot;table_type&#92;&quot;:&#92;&quot;BASE TABLE&#92;&quot;,&#92;&quot;self_referencing_column_name&#92;&quot;:null,&#92;&quot;reference_generation&#92;&quot;:null,&#92;&quot;user_defined_type_catalog&#92;&quot;:null,&#92;&quot;user_defined_type_schema&#92;&quot;:null,&#92;&quot;user_defined_type_name&#92;&quot;:null,&#92;&quot;is_insertable_into&#92;&quot;:&#92;&quot;YES&#92;&quot;,&#92;&quot;is_typed&#92;&quot;:&#92;&quot;NO&#92;&quot;,&#92;&quot;commit_action&#92;&quot;:null,&#92;&quot;TABLE_COMMENT&#92;&quot;:null},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_schema&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_order_reviews&#92;&quot;,&#92;&quot;table_type&#92;&quot;:&#92;&quot;BASE TABLE&#92;&quot;,&#92;&quot;self_referencing_column_name&#92;&quot;:null,&#92;&quot;reference_generation&#92;&quot;:null,&#92;&quot;user_defined_type_catalog&#92;&quot;:null,&#92;&quot;user_defined_type_schema&#92;&quot;:null,&#92;&quot;user_defined_type_name&#92;&quot;:null,&#92;&quot;is_insertable_into&#92;&quot;:&#92;&quot;YES&#92;&quot;,&#92;&quot;is_typed&#92;&quot;:&#92;&quot;NO&#92;&quot;,&#92;&quot;commit_action&#92;&quot;:null,&#92;&quot;TABLE_COMMENT&#92;&quot;:null},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_schema&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_products&#92;&quot;,&#92;&quot;table_type&#92;&quot;:&#92;&quot;BASE TABLE&#92;&quot;,&#92;&quot;self_referencing_column_name&#92;&quot;:null,&#92;&quot;reference_generation&#92;&quot;:null,&#92;&quot;user_defined_type_catalog&#92;&quot;:null,&#92;&quot;user_defined_type_schema&#92;&quot;:null,&#92;&quot;user_defined_type_name&#92;&quot;:null,&#92;&quot;is_insertable_into&#92;&quot;:&#92;&quot;YES&#92;&quot;,&#92;&quot;is_typed&#92;&quot;:&#92;&quot;NO&#92;&quot;,&#92;&quot;commit_action&#92;&quot;:null,&#92;&quot;TABLE_COMMENT&#92;&quot;:null},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_schema&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_sellers&#92;&quot;,&#92;&quot;table_type&#92;&quot;:&#92;&quot;BASE TABLE&#92;&quot;,&#92;&quot;self_referencing_column_name&#92;&quot;:null,&#92;&quot;reference_generation&#92;&quot;:null,&#92;&quot;user_defined_type_catalog&#92;&quot;:null,&#92;&quot;user_defined_type_schema&#92;&quot;:null,&#92;&quot;user_defined_type_name&#92;&quot;:null,&#92;&quot;is_insertable_into&#92;&quot;:&#92;&quot;YES&#92;&quot;,&#92;&quot;is_typed&#92;&quot;:&#92;&quot;NO&#92;&quot;,&#92;&quot;commit_action&#92;&quot;:null,&#92;&quot;TABLE_COMMENT&#92;&quot;:null}]&quot;' data-total-rows='8' data-total-columns='13' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;table_catalog&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;table_schema&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;table_name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;table_type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;self_referencing_column_name&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;reference_generation&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;user_defined_type_catalog&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;user_defined_type_schema&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;user_defined_type_name&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;is_insertable_into&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;is_typed&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;commit_action&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;TABLE_COMMENT&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "bkHC",
       "code_hash": "aa303d649565ef839f5d519bf78d100d",
-      "outputs": [],
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "7f5a7806100a4682d1d3beaf3e24ad84",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "PKri",
-      "code_hash": "604b6d0ba409c061c2f034f9756feafd",
+      "code_hash": "602fcebdb860419c5969a693678afb6b",
       "outputs": [
         {
           "type": "data",
@@ -50,20 +84,8 @@
       "console": []
     },
     {
-      "id": "WYCh",
-      "code_hash": null,
-      "outputs": [],
-      "console": []
-    },
-    {
-      "id": "CnCO",
-      "code_hash": null,
-      "outputs": [],
-      "console": []
-    },
-    {
-      "id": "FkYM",
-      "code_hash": "2b4dfeaebe504c5de0dc8c5f62756cce",
+      "id": "Xref",
+      "code_hash": "8d4a2e3695b6b896bbce319a5025599f",
       "outputs": [
         {
           "type": "data",
@@ -75,20 +97,8 @@
       "console": []
     },
     {
-      "id": "eNLy",
-      "code_hash": null,
-      "outputs": [],
-      "console": []
-    },
-    {
-      "id": "NsUi",
-      "code_hash": null,
-      "outputs": [],
-      "console": []
-    },
-    {
-      "id": "RpWf",
-      "code_hash": "684954b4ec9ec8536381521892bed778",
+      "id": "SFPL",
+      "code_hash": "644feebf3fedd58d02d3aff2a9cb2869",
       "outputs": [
         {
           "type": "data",
@@ -100,13 +110,65 @@
       "console": []
     },
     {
-      "id": "nkNh",
-      "code_hash": "71776a39b69ca3ae868a77a17a9120a5",
+      "id": "BYtC",
+      "code_hash": "1ad457e3a03928fa5139d158977922ff",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='nkNh-0' random-id='5b2469a2-7dba-b9aa-f97b-063d8e183334'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;3442f8959a84dea7ee197c632cb2df15&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;13023&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;campinas&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;SP&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;d1b65fc7debc3361ea86b5f14c68d2e2&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;13844&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;mogi guacu&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;SP&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;ce3ad9de960102d0677a81f5d0bb7b2d&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;20031&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;rio de janeiro&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;RJ&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;c0f3eea2e14555b6faeea3dd58c1b1c3&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;04195&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;sao paulo&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;SP&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;51a04a8a6bdcb23deccc82b0b80742cf&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;12914&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;braganca paulista&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;SP&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;c240c4061717ac1806ae6ee72be3533b&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;20920&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;rio de janeiro&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;RJ&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;e49c26c3edfa46d227d5121a6b6e4d37&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;55325&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;brejao&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;PE&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;1b938a7ec6ac5061a66a3766e0e75f90&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;16304&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;penapolis&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;SP&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;768a86e36ad6aae3d03ee3c6433d61df&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;01529&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;sao paulo&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;SP&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;ccc4bbb5f32a6ab2b7066a4130f114e3&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;80310&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;curitiba&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;PR&#92;&quot;}]&quot;' data-total-rows='20' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;seller_id&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;seller_zip_code_prefix&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;seller_city&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;seller_state&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "475bb285085f811101b038027cd4697d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "4597b61ad927651422d610616a477bfa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "9ede15f6802894543ed3f27203b3bbcb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='emfo-0' random-id='186c72c6-3d40-4766-caab-7cc23eab75ff'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;3442f8959a84dea7ee197c632cb2df15&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;13023&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;campinas&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;SP&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;d1b65fc7debc3361ea86b5f14c68d2e2&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;13844&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;mogi guacu&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;SP&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;ce3ad9de960102d0677a81f5d0bb7b2d&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;20031&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;rio de janeiro&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;RJ&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;c0f3eea2e14555b6faeea3dd58c1b1c3&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;04195&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;sao paulo&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;SP&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;51a04a8a6bdcb23deccc82b0b80742cf&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;12914&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;braganca paulista&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;SP&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;c240c4061717ac1806ae6ee72be3533b&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;20920&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;rio de janeiro&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;RJ&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;e49c26c3edfa46d227d5121a6b6e4d37&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;55325&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;brejao&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;PE&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;1b938a7ec6ac5061a66a3766e0e75f90&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;16304&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;penapolis&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;SP&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;768a86e36ad6aae3d03ee3c6433d61df&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;01529&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;sao paulo&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;SP&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;ccc4bbb5f32a6ab2b7066a4130f114e3&#92;&quot;,&#92;&quot;seller_zip_code_prefix&#92;&quot;:&#92;&quot;80310&#92;&quot;,&#92;&quot;seller_city&#92;&quot;:&#92;&quot;curitiba&#92;&quot;,&#92;&quot;seller_state&#92;&quot;:&#92;&quot;PR&#92;&quot;}]&quot;' data-total-rows='20' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;seller_id&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;seller_zip_code_prefix&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;seller_city&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;seller_state&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "kjmg",
+      "code_hash": "2ab1f8c14bc1bbe008c7f020fd0c1020",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='kjmg-0' random-id='bc1612bf-cefa-71a7-1a7f-d430ca084473'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_customers&#92;&quot;},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_geolocation&#92;&quot;},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_orders_dataset&#92;&quot;},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_order_items&#92;&quot;},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_order_payments&#92;&quot;},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_order_reviews&#92;&quot;},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_products&#92;&quot;},{&#92;&quot;table_catalog&#92;&quot;:&#92;&quot;Olist_dataset&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;Olist_sellers&#92;&quot;}]&quot;' data-total-rows='8' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;table_catalog&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;table_name&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
