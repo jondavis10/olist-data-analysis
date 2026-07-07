@@ -83,6 +83,7 @@ work notes 7-3-2026
 
 Work notes 7-7-2026
 - Explore data and create ERD (schema) table for data. 
+-open the 01_Olist_Explore_Data.py.json file to continue work from last time cmnd: marimo edit 01_Olist_Explore_Data.py.json
 
 
 Quick tips:
